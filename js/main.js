@@ -24,7 +24,7 @@ elResults.addEventListener("click", (e) => {
   showOneMovie(imdbID);
 });
 
-function showData(data) {
+function showData(data) { 
   if (data.Response !== "True") {
     elResults.innerHTML = "<h1>No results</h1>";
     return;
@@ -61,7 +61,7 @@ function showOneMovie(id) {
             <h3><span>Type: </span>${movie.Type}</h3>
             <h3><span>Released: </span>${movie.Released}</h3>
             <h3><span>Country: </span>${movie.Country}</h3>
-            <h3><span>Language: </span>${movie.language}</h3>
+            <h3><span>Language: </span>${movie.Language}</h3>
             <h3><span>Genre: </span>${movie.Genre}</h3>
             <h3><span>BoxOffice: </span>${movie.BoxOffice}</h3>
             <h3><span>Director: </span>${movie.Director}</h3>
