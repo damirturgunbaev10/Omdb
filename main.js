@@ -13,7 +13,7 @@ elForm.addEventListener("submit", (e) => {
   const searchValue = elInput.value.trim();
   if (!searchValue) return;
 
-  getData(`http://www.omdbapi.com/?s=${searchValue}&apikey=d48b840d`);
+  getData(`https://www.omdbapi.com/?s=${searchValue}&apikey=d48b840d`);
 });
 
 elResults.addEventListener("click", (e) => {
